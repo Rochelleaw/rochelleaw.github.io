@@ -97,17 +97,17 @@ p {
     }
 
 
+
 .page-title {
-    font-size: 20px !important;
-    background: yellow;
+    font-size: 24px;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-    
-
-
 .page-logo img {
-    width: 80px !important;
-    border: 5px solid red;
+    width: 120px;
+    height: auto;
 }
 
 

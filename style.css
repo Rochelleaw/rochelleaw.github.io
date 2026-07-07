@@ -232,24 +232,6 @@ p {
     }
 
   
-    .footer-logos {
-        display: flex;
-        flex-direction: column !important;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .footer-logos img {
-        height: 90px;
-        width: auto;
-    }
-
-    .footer-text {
-        font-size: 18px;
-    }
-
-
-
 
 .profile-section {
     flex-direction: column-reverse;
@@ -284,22 +266,30 @@ p {
         font-size: 14px;
     }
 
+.navbar {
+    gap: 15px;
+    padding: 12px;
+}
 
+.navbar a {
+    font-size: 14px;
+}
 
 .footer-logos {
-        flex-direction: column;
-        gap: 30px;
-    }
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 30px;
+}
 
-    .footer-logos img {
-        height: 90px;
-    }
+.footer-logos img {
+    height: 70px !important;
+    width: auto;
+}
 
-    .footer-text {
-        font-size: 18px;
-    }
-
-
+.footer-text {
+    font-size: 18px;
+}
 
 }
 

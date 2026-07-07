@@ -85,9 +85,11 @@ p {
 
 @media (max-width: 1000px) {
 
-* {
-    outline: 1px solid red;
+
+body {
+    background: pink;
 }
+
 
     .banner {
         height: 180px;

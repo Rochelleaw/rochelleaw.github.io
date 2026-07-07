@@ -18,3 +18,30 @@ h1 {
 p {
     text-align: center;
 }
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.research-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.research-item {
+    width: 300px;
+    text-align: center;
+}
+
+.research-item img {
+    width: 220px;
+    height: auto;
+}
+
+.research-item h3 {
+    margin-top: 20px;
+}

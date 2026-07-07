@@ -465,5 +465,23 @@ p {
     transform: scale(1.1);
 }
 .pub-links a {    text-decoration: none;}
+
+/* NEWS */
+.news-item {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.news-item h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    text-align: left;
+}
+
 }
 

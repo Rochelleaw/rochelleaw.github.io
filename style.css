@@ -291,6 +291,11 @@ p {
     font-size: 18px;
 }
 
+.contact-card {
+    margin: 20px;
+    padding: 25px;
+}
+
 }
 
     
@@ -384,13 +389,33 @@ p {
 }
 /* CONTACT */
 
-.content a {
+
+.contact-card {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.contact-card h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    text-align: center;
+}
+
+.contact-card a {
     color: #4f7f6f;
     text-decoration: none;
     font-weight: bold;
 }
 
-.content a:hover {
+.contact-card a:hover {
     text-decoration: underline;
 }
 

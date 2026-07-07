@@ -124,10 +124,6 @@ p {
     margin-bottom: 50px;
 }
 
-.footer-icons img {
-    width: 120px;
-    height: auto;
-}
 
 .page-logo {
     text-align: center;
@@ -149,6 +145,11 @@ p {
 }
 
 
+
+.footer-icons img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.25));
+}
 
 .footer-icons img {
     width: 120px;

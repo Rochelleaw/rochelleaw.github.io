@@ -298,7 +298,18 @@ p {
     margin: 20px;
     padding: 25px;
 }
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
+.footer-icons img {
+    width: 70px;
+    height: auto;
+}
 }
 
     

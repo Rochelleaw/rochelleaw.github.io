@@ -28,3 +28,9 @@ h3 {
 p {
     font-size: 19px;
 }
+
+.research-item img {
+    width: 180px;
+    height: auto;
+}
+

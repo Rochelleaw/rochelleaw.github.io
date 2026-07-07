@@ -277,6 +277,18 @@ p {
         font-size: 14px;
     }
 
+footer-logos {
+    gap: 30px;
+}
+
+.footer-logos img {
+    height: 50px;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
 }
 
     
@@ -332,6 +344,41 @@ p {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* FOOTER */
+
+
+.site-footer {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.site-footer hr {
+    width: 80%;
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 20px;
+}
+
+.footer-logos img {
+    height: 80px;
+    width: auto;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 20px;
+    color: #666666;
 }
 
 }

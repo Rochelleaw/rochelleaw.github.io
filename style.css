@@ -98,17 +98,21 @@ p {
 
 
 
+
 .page-title {
-    font-size: 24px;
+    font-size: 28px !important;
     line-height: 1.1;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+
+
 .page-logo img {
-    width: 120px;
+    width: 140px !important;
     height: auto;
 }
+
 
 
     .content {

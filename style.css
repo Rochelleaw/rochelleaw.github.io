@@ -278,17 +278,20 @@ p {
     }
 
 
+
 .footer-logos {
-    gap: 40px;
-}
+        flex-direction: column;
+        gap: 30px;
+    }
 
-.footer-logos img {
-    height: 120px;
-}
+    .footer-logos img {
+        height: 90px;
+    }
 
-.footer-text {
-    font-size: 18px;
-}
+    .footer-text {
+        font-size: 18px;
+    }
+
 
 
 }
@@ -368,7 +371,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 200px;
     margin-bottom: 20px;
 }
 

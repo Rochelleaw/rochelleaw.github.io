@@ -275,10 +275,8 @@ p {
     
 /* NAVIGATION */
 
-   
-
 .navbar {
-    background-color: #4f7f6f;   /* match your emblem green */
+    background-color: #4f7f6f;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -291,12 +289,12 @@ p {
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
+    transition: opacity 0.3s ease;
 }
 
 .navbar a:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
- 
 }
 

@@ -47,19 +47,26 @@ p {
 }
 
 
-
 .research-grid {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
-    margin: 60px 40px;
-    flex-wrap: nowrap;
+    gap: 120px;
+    margin: 60px auto;
+    max-width: 1800px;
 }
 
+
 }
+
 
 .research-item {
-    width: 380px;
+    width: 420px;
+    text-align: center;
+}
+
+
+.research-item h3 {
     text-align: center;
 }
 

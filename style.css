@@ -55,7 +55,7 @@ p {
 }
 
 .research-item {
-    width: 650px;
+    width: 450px;
     text-align: center;
 }
 
@@ -139,17 +139,6 @@ p {
     height: auto;
 }
 
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    margin: 50px 0;
-}
-
-.footer-icons img {
-    width: 120px;
-    height: auto;
-}
 
 
 .page-title {
@@ -174,7 +163,7 @@ p {
 
 
 .content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
 }

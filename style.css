@@ -96,17 +96,20 @@ p {
         height: 160px;
     }
 
-    .page-title {
-        font-size: 28px;
-        line-height: 1.1;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 
-    .page-logo img {
-        width: 140px;
-        height: auto;
-    }
+.page-title {
+    font-size: 20px !important;
+    background: yellow;
+}
+
+    
+
+
+.page-logo img {
+    width: 80px !important;
+    border: 5px solid red;
+}
+
 
     .content {
         width: 100%;

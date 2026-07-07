@@ -421,6 +421,33 @@ p {
 .contact-card a:hover {
     text-decoration: underline;
 }
+/* PUBLICATIONS */
 
+.publication {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.publication p {
+    text-align: left;
+    font-size: 24px;
+}
+
+.pub-links {
+    margin-top: 15px;
+}
+
+.pub-links img {
+    height: 36px;
+    width: auto;
+    margin-right: 15px;
+    transition: transform 0.2s ease;
+}
+
+.pub-links img:hover {
+    transform: scale(1.1);
+}
 }
 

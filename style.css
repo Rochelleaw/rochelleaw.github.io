@@ -51,7 +51,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 120px;
+    gap: 80px;
     margin: 60px auto;
     max-width: 1800px;
 }

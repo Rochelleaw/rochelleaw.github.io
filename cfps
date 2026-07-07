@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cell-free protein synthesis | Aw Lab</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <img src="images/banner.jpg" class="banner" alt="Banner">
+
+    <h1 class="page-title"><i>Cell-free protein synthesis</h1>
+  
+<div class="page-logo">
+    <img src="images/CFPS.png" alt="CFPS">
+</div>
+
+<div class="content">
+    <p>
+        The Aw Lab engineers <i>Pichia pastoris</i> as a platform for the
+        production of biologics and other high-value biomolecules.
+    </p>
+
+    <h2>Research Overview</h2>
+
+    <p>
+        We develop engineering biology approaches for the design,
+        construction and optimisation of <i>Pichia pastoris</i>-based production
+        systems. 
+    </p>
+    <p>
+        Our research combines strain engineering, engineering
+        biology and bioprocess development to improve the production
+        of recombinant proteins and other valuable products.
+    </p>
+</div>
+    <h2>Research Themes</h2>
+
+    <div class="research-grid">
+
+        <div class="research-item">
+            <img src="images/CFPS.png" alt="CFPS">
+
+            <h3>Eukaryotic cell-free platform</h3>
+
+            <p>
+               Expanding on the <i>Pichia pastoris</i> cell-free protein
+              synthesis system.
+            </p>
+        </div>
+
+        <div class="research-item">
+            <img src="images/CFPS.png" alt="CFPS">
+
+            <h3>High-through screening platform</h3>
+
+            <p>
+            Developing a high-throughput screening platform for antibody
+  production using cell-free systems.
+            </p>
+        </div>
+
+
+</div>
+<h2>Explore Our Research</h2>
+
+<div class="footer-icons">
+
+    <a href="Pichia.html">
+        <img src="images/Pichia.png" alt="Pichia" title="Pichia Engineering">
+    </a>
+
+    <a href="CFPS.html">
+        <img src="images/CFPS.png" alt="CFPS" title="Cell-free protein synthesis">
+    </a> 
+    
+    <a href="Glyco.html">
+        <img src="images/Glyco.png" alt="Glyco" title="In vitro glycosylation">
+    </a>
+
+</div>
+
+    <p>
+        <a href="index.html">← Return to Homepage</a>
+    </p>
+
+</body>
+    </html>

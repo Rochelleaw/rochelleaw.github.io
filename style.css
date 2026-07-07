@@ -277,17 +277,19 @@ p {
         font-size: 14px;
     }
 
-footer-logos {
-    gap: 30px;
+
+.footer-logos {
+    gap: 40px;
 }
 
 .footer-logos img {
-    height: 50px;
+    height: 120px;
 }
 
 .footer-text {
-    font-size: 16px;
+    font-size: 18px;
 }
+
 
 }
 

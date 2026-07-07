@@ -166,7 +166,7 @@ p {
 }
 
 .content p {
-    font-size: 22px;
+    font-size: 30px;
     text-align: left;
 }
 
@@ -175,3 +175,10 @@ p {
     transform: scale(1.2);
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.25));
 }
+
+.footer-icons img {
+    width: 120px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+

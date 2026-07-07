@@ -114,3 +114,40 @@ p {
         font-size: 24px;
     }
 }
+
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-icons img {
+    width: 120px;
+    height: auto;
+}
+
+.page-logo {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.page-logo img {
+    width: 350px;
+    height: auto;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 50px 0;
+}
+
+.footer-icons img {
+    width: 120px;
+    height: auto;
+}
+

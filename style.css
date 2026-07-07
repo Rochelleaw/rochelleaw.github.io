@@ -175,9 +175,3 @@ p {
     transform: scale(1.2);
     filter: drop-shadow(0 0 10px rgba(0,0,0,0.25));
 }
-
-
-.footer-icons img:hover {
-    transform: scale(1.2);
-}
-

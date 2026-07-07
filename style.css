@@ -440,13 +440,15 @@ p {
 }
 
 .pub-links img {
-    height: 36px;
+    height: 24px !important;
     width: auto;
-    margin-right: 15px;
+    opacity: 0.8;
+    margin-right: 12px;
     transition: transform 0.2s ease;
 }
 
 .pub-links img:hover {
+    opacity: 1;
     transform: scale(1.1);
 }
 }

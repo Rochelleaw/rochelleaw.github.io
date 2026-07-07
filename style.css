@@ -451,5 +451,13 @@ p {
     opacity: 1;
     transform: scale(1.1);
 }
+.pub-links a {
+    text-decoration: none;
+}
+
+.pub-links img {
+    display: inline-block;
+    vertical-align: middle;
+}
 }
 

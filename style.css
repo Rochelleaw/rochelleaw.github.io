@@ -172,3 +172,15 @@ p {
     transition: transform 0.3s ease;
 }
 
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.content p {
+    font-size: 26px;
+    text-align: left;
+}
+

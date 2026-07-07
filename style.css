@@ -236,8 +236,9 @@ p {
     }
 
 
+
 .profile-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 }
 
@@ -258,6 +259,7 @@ p {
 .profile-photo img {
     width: 180px;
 }
+
 
 
 }

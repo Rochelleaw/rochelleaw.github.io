@@ -197,6 +197,15 @@ p {
 }
 
 
+.profile-section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-photo img {
+    width: 200px;
+}
+
 
 .page-title {
     font-size: 80px;
@@ -231,3 +240,21 @@ p {
     text-align: left;
 }
 
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px auto;
+    max-width: 1400px;
+}
+
+.profile-text {
+    flex: 1;
+}
+
+.profile-photo img {
+    width: 300px;
+    border-radius: 10px;
+}

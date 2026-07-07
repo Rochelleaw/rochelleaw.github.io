@@ -130,8 +130,10 @@ p {
     padding: 0 40px;
 }
 
+
 .profile-text {
     flex: 1;
+    max-width: 650px;
 }
 
 .profile-photo {
@@ -143,6 +145,15 @@ p {
     height: auto;
     border-radius: 10px;
 }
+
+
+.profile-text h3 {
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
 
 /* MOBILE */
 

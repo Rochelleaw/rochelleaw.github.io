@@ -121,24 +121,31 @@ p {
 /* PEOPLE PAGE */
 
 
+
 .profile-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    gap: 80px;
-    max-width: 1100px;
+    gap: 100px;
+    max-width: 1200px;
     margin: 40px auto;
     padding: 0 40px;
 }
 
 .profile-text {
-    max-width: 500px;
+    width: 600px;
 }
 
 .profile-text h3 {
     font-size: 48px;
-    text-align: center;
+    text-align: left;
+    margin-top: 0;
     margin-bottom: 20px;
+}
+
+.profile-text p {
+    text-align: left;
+    font-size: 24px;
 }
 
 .profile-photo img {

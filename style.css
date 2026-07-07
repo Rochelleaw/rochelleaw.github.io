@@ -279,7 +279,7 @@ p {
     display: flex;
     flex-direction: column !important;
     align-items: center;
-    gap: 15px;
+    gap: 0px;
 }
 
 .footer-logos img {
@@ -401,7 +401,7 @@ p {
 }
 
 .contact-card h2 {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 15px;
 }
 

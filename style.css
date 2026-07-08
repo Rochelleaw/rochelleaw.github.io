@@ -322,32 +322,29 @@ p {
 }
 }
 
-  @media (max-width: 1000px) {
+.glyco-research-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 20px auto;
+}
 
-    .glyco-research-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin: 20px auto;
-    }
+.glyco-research-grid .research-item {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
 
-    .glyco-research-grid .research-item {
-        width: 100%;
-        max-width: 320px;
-        margin: 0 auto;
-    }
+.glyco-research-grid .research-item img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
 
-    .glyco-research-grid .research-item img {
-        width: 180px;
-        height: 180px;
-        object-fit: contain;
-    }
-
-    .glyco-research-grid .research-item h3 {
-        font-size: 24px;
-        min-height: auto;
-        white-space: normal;
-    }
+.glyco-research-grid .research-item h3 {
+    font-size: 24px;
+    min-height: auto;
+    white-space: normal;
 }
 }
     

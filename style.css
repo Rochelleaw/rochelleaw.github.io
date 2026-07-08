@@ -559,6 +559,36 @@ p {
     text-align: left;
 }
 
+/* GLYCO RESEARCH GRID */
+
+.glyco-research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1500px;
+    margin: 60px auto;
+    padding: 0 20px;
+    align-items: start;
+}
+
+.glyco-research-grid .research-item {
+    width: 100%;
+}
+
+.glyco-research-grid .research-item img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.glyco-research-grid .research-item h3 {
+    font-size: 36px;
+}
+
+.glyco-research-grid .research-item p {
+    text-align: center;
+}
 
 }
 

@@ -573,22 +573,27 @@ p {
     max-width: 1500px;
     margin: 60px auto;
     padding: 0 20px;
-    align-items: start;
 }
 
 .glyco-research-grid .research-item {
-    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .glyco-research-grid .research-item img {
-    width: 300px;
-    height: auto;
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
     display: block;
-    margin: 0 auto;
 }
 
 .glyco-research-grid .research-item h3 {
     font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    min-height: 90px;
 }
 
 .glyco-research-grid .research-item p {

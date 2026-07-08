@@ -516,44 +516,47 @@ p {
     position: relative;
 }
 
+
 .banner {
     width: 100%;
     height: 240px;
     object-fit: cover;
     display: block;
-
-    /* More visible image */
-    opacity: 0.8;
+    opacity: 1;
 }
+
+
 
 .banner-text {
     position: absolute;
 
-    left: 80px;
-    bottom: 30px;
+    left: 40px;
+    bottom: 25px;
+
+    padding: 15px 25px;
+
+    background: rgba(0,0,0,0.35);
 
     text-align: left;
-    color: white;
 }
 
+
+.banner-text h1 {
+ 
 .banner-text h1 {
     margin: 0;
-
-    color: #4f7f6f;   /* same green as navbar */
+    color: white;
     font-size: 72px;
-    font-weight: bold;
-
-    /* helps the green stand out */
-    text-shadow: 1px 1px 6px rgba(255,255,255,0.7);
+    font-weight: 800;
 }
 
 .banner-text p {
-    margin-top: 8px;
-
+    margin-top: 6px;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     text-align: left;
 }
+
 
 }
 

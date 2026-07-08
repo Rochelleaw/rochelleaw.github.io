@@ -235,9 +235,7 @@ p {
         margin-top: 20px;
     }
 
-  
-
-.profile-section {
+  .profile-section {
     flex-direction: column-reverse;
     align-items: center;
 }
@@ -261,8 +259,6 @@ p {
     height: 180px;
     object-fit: cover;
 }
-
-
   .navbar {
         gap: 15px;
         padding: 12px;
@@ -315,6 +311,17 @@ p {
 .footer-icons img {
     width: 70px;
     height: auto;
+}
+    .banner {
+    height: 160px;
+}
+
+.banner-text h1 {
+    font-size: 32px;
+}
+
+.banner-text p {
+    font-size: 14px;
 }
 }
 
@@ -506,6 +513,40 @@ p {
     line-height: 1.5;
 }
 
+/* BANNER */
+
+.banner-container {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(70%);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.banner-text p {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+}
 
 }
 

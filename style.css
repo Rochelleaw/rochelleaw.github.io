@@ -308,11 +308,13 @@ p {
 }
 
 .banner {
-    height: 160px;
+.banner-text {
+    left: 20px;
+    bottom: 15px;
 }
 
 .banner-text h1 {
-    font-size: 30px;
+    font-size: 38px;
 }
 
 .banner-text p {
@@ -510,8 +512,6 @@ p {
 
 /* BANNER */
 
-/* BANNER */
-
 .banner-container {
     position: relative;
 }
@@ -521,33 +521,39 @@ p {
     height: 240px;
     object-fit: cover;
     display: block;
-    opacity: 0.55;
+
+    /* More visible image */
+    opacity: 0.8;
 }
 
 .banner-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-    text-align: center;
+    left: 80px;
+    bottom: 30px;
+
+    text-align: left;
     color: white;
-    width: 90%;
 }
 
 .banner-text h1 {
     margin: 0;
-    color: white;
-    font-size: 52px;
+
+    color: #4f7f6f;   /* same green as navbar */
+    font-size: 72px;
     font-weight: bold;
-    letter-spacing: 1px;
+
+    /* helps the green stand out */
+    text-shadow: 1px 1px 6px rgba(255,255,255,0.7);
 }
 
 .banner-text p {
-    margin-top: 12px;
-    color: rgba(255,255,255,0.9);
-    text-align: center;
-    font-size: 22px;
+    margin-top: 8px;
+
+    color: white;
+    font-size: 24px;
+    text-align: left;
 }
+
 }
 

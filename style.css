@@ -6,12 +6,6 @@ body {
     line-height: 1.8;
 }
 
-.banner {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    display: block;
-}
 
 h1 {
     text-align: center;

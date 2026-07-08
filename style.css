@@ -321,6 +321,11 @@ p {
     font-size: 14px;
 }
 }
+
+    .glyco-research-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
 }
     
 /* NAVIGATION */

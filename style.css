@@ -323,9 +323,11 @@ p {
 }
 
     .glyco-research-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
-}
+       flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 20px 0;
+    }
 }
     
 /* NAVIGATION */

@@ -516,9 +516,7 @@ p {
 
 /* BANNER */
 
-.banner-container {
-    position: relative;
-}
+/* BANNER */
 
 .banner-container {
     position: relative;
@@ -529,12 +527,7 @@ p {
     height: 240px;
     object-fit: cover;
     display: block;
-
-    /* Makes the image recede into the background */
-    opacity: 0.65;
-
-    /* Optional: slightly soften the image */
-    filter: saturate(85%);
+    opacity: 0.55;
 }
 
 .banner-text {
@@ -550,7 +543,7 @@ p {
 
 .banner-text h1 {
     margin: 0;
-
+    color: white;
     font-size: 52px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -558,10 +551,9 @@ p {
 
 .banner-text p {
     margin-top: 12px;
-
-    font-size: 22px;
     color: rgba(255,255,255,0.9);
     text-align: center;
+    font-size: 22px;
 }
 }
 

@@ -322,30 +322,7 @@ p {
 }
 }
 
-.glyco-research-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-    margin: 20px auto;
-}
 
-.glyco-research-grid .research-item {
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-}
-
-.glyco-research-grid .research-item img {
-    width: 180px;
-    height: 180px;
-    object-fit: contain;
-}
-
-.glyco-research-grid .research-item h3 {
-    font-size: 24px;
-    min-height: auto;
-    white-space: normal;
-}
 }
     
 /* NAVIGATION */
@@ -619,6 +596,44 @@ p {
 .glyco-research-grid .research-item p {
     text-align: center;
 }
+GLYCO MOBILE */
 
+
+
+@media screen and (max-width: 1000px) {
+
+
+
+ .glyco-research-grid {
+
+ display: block !important;
+
+ }
+
+
+
+ .glyco-research-grid .research-item {
+
+ width: 100% !important;
+
+ max-width: 320px !important;
+
+ margin: 0 auto 40px auto !important;
+
+ }
+
+
+
+ .glyco-research-grid .research-item img {
+
+ width: 180px !important;
+
+ height: 180px !important;
+
+ }
+
+
+
+}
 }
 

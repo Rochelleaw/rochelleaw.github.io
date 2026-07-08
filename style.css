@@ -489,6 +489,15 @@ p {
     font-size: 24px;
     margin-top: 0;
 }
+/* PUBLICATIONS */
 
+.content h2 {
+    font-size: 32px;
+}
+
+.publication p {
+    font-size: 20px;
+    line-height: 1.6;
+}
 }
 

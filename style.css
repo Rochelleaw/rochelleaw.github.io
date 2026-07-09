@@ -611,6 +611,40 @@ p {
     text-align: left;
 }
 
+/*GLYCO GRID*/
 
+.glyco-research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1500px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.glyco-research-grid .research-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glyco-research-grid .research-item img {
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+    display: block;
+}
+
+.glyco-research-grid .research-item h3 {
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    min-height: 90px;
+}
+
+.glyco-research-grid .research-item p {
+    text-align: center;
+}
 
 

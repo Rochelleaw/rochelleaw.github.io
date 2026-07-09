@@ -508,12 +508,15 @@ p {
 .pub-links a {    text-decoration: none;}
 
 
+
 .publication-profiles {
     display: flex;
     justify-content: center;
     gap: 12px;
     margin-bottom: 30px;
+    width: 100%;
 }
+
 
 
 .publication-profiles a {

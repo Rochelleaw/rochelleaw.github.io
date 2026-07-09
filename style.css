@@ -598,22 +598,28 @@ p {
 }
 /*GLYCO MOBILE */
 
-
-
-
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
 
     .glyco-research-grid {
         grid-template-columns: 1fr !important;
-        gap: 30px;
+        gap: 30px !important;
     }
 
     .glyco-research-grid .research-item {
-        max-width: 320px;
-        margin: 0 auto;
+        width: 95% !important;
+        max-width: 300px !important;
+        margin: 0 auto !important;
     }
 
+    .glyco-research-grid .research-item img {
+        width: 180px !important;
+        height: auto !important;
+    }
+
+    .glyco-research-grid .research-item h3 {
+        font-size: 24px !important;
+    }
 }
 
-}
+
 

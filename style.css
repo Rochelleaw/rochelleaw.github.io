@@ -600,40 +600,20 @@ p {
 
 
 
+
 @media screen and (max-width: 1000px) {
 
+    .glyco-research-grid {
+        grid-template-columns: 1fr !important;
+        gap: 30px;
+    }
 
-
- .glyco-research-grid {
-
- display: block !important;
-
- }
-
-
-
- .glyco-research-grid .research-item {
-
- width: 100% !important;
-
- max-width: 320px !important;
-
- margin: 0 auto 40px auto !important;
-
- }
-
-
-
- .glyco-research-grid .research-item img {
-
- width: 180px !important;
-
- height: 180px !important;
-
- }
-
-
+    .glyco-research-grid .research-item {
+        max-width: 320px;
+        margin: 0 auto;
+    }
 
 }
+
 }
 

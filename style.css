@@ -617,13 +617,12 @@ p {
 .glyco-research-grid {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
-}
     gap: 40px;
     max-width: 1500px;
     margin: 60px auto;
     padding: 0 20px;
 }
-}
+
 
 .glyco-research-grid .research-item {
     text-align: center;

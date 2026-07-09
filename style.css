@@ -242,10 +242,8 @@ p {
     }
 
   
-.glyco-research-grid .research-item img {
+ .glyco-research-grid .research-item img{
         width: 180px !important;
-
-        width: 180px;
         height: auto;
     }
 

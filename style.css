@@ -507,10 +507,14 @@ p {
 }
 .pub-links a {    text-decoration: none;}
 
+
 .publication-profiles {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
     margin-bottom: 30px;
-    font-size: 20px;
 }
+
 
 .publication-profiles a {
     color: #4f7f6f;
@@ -524,8 +528,7 @@ p {
 
 .publication-profiles span {
     color: #4f7f6f;
-    margin: 0 12px;
-}
+  }
 
 
 /* NEWS */

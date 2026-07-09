@@ -229,13 +229,16 @@ p {
         margin-top: 20px;
     }
 
+
 .glyco-research-grid {
-    display: flex; !important;
-    flex-direction: column; !important;
-    align-items: center; !important;
-    gap: 30px; !important;
-    margin: 20px 0; !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0;
 }
+
 
 
     .glyco-research-grid .research-item {

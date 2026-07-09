@@ -236,17 +236,20 @@ p {
         margin: 20px 0;
     }
 
-    .glyco-research-grid {
+   .glyco-research-grid .research-item {
         width: 95%;
         max-width: 300px;
     }
 
-    .glyco-research-grid img {
+  
+.glyco-research-grid .research-item img {
+        width: 180px !important;
+
         width: 180px;
         height: auto;
     }
 
-    .glyco-research-grid h3 {
+      .glyco-research-grid .research-item h3 {
         font-size: 24px;
         margin-top: 20px;
     }

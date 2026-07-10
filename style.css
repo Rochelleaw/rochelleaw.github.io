@@ -88,7 +88,7 @@ p {
 }
 
 .research-item {
-    width: 350px;
+    width: 420px;
     text-align: center;
 }
 
@@ -663,7 +663,6 @@ p {
     font-size: 24px;
     margin-top: 25px;
     margin-bottom: 20px;
-    min-height: 90px;
 }
 
 .glyco-research-grid .research-item p {

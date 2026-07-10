@@ -430,7 +430,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+    gap: 180px;
     margin-bottom: 20px;
 }
 
@@ -442,7 +442,7 @@ p {
 .footer-text {
     text-align: center;
     font-size: 20px;
-    color: #666666;
+    color: #4f7f6f;
 }
 /* CONTACT */
 

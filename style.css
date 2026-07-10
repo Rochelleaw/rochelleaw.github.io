@@ -375,8 +375,8 @@ p {
 }
 
 .navbar a:hover {
-    color: #F0F4F2
-    
+    color: #F0F4F2;
+}
 
 .dropdown {
     position: relative;
@@ -402,7 +402,7 @@ p {
 }
 
 .dropdown-content a:hover {
-    background-color: #49695E
+    background-color: #49695E;
 }
 
 .dropdown:hover .dropdown-content {

@@ -82,7 +82,7 @@ p {
 }
 
 .research-item {
-    width: 370px;
+    width: 350px;
     text-align: center;
 }
 
@@ -103,13 +103,13 @@ p {
 .footer-icons {
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .footer-icons img {
-    width: 120px;
+    width: 80px;
     height: auto;
     transition: transform 0.3s ease;
 }

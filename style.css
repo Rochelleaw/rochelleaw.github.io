@@ -103,13 +103,13 @@ p {
 .footer-icons {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .footer-icons img {
-    width: 80px;
+    width: 120px;
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -430,12 +430,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 120px;
     margin-bottom: 20px;
 }
 
 .footer-logos img {
-    height: 200px;
+    height: 140px;
     width: auto;
 }
 
